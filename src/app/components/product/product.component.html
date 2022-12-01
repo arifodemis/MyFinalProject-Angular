@@ -29,7 +29,7 @@
         <td>{{product.categoryId}}</td>
         <td>{{product.unitPrice |currency}}</td>
         <td>{{product.unitPrice |vatAdded:18 | currency }}</td>
-        <td>{{product.unitStock}}</td>
+        <td>{{product.unitInStock}}</td>
         <td><button (click)="addToCart(product)"
           type="button" class="btn btn-success btn-xs">Sepete ekle</button></td>
     </tr>
